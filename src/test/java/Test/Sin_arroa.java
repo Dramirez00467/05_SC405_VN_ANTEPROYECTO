@@ -8,7 +8,7 @@ public class Sin_arroa {
 	public class Testcorrecto{
 		
 	@Test
-	public  void  main(String[] args) { 
+public void  main() { 
 		  System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver1/chromedriver.exe");
 		  ChromeDriver driver = new ChromeDriver(); 
 		  driver.navigate().to("https://demoqa.com/webtables");

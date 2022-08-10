@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Letras{
 	
 @Test
-public static  void  main(String[] args) { 
+public void  main() { 
 	  System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver1/chromedriver.exe");
 	  ChromeDriver driver = new ChromeDriver(); 
 	  driver.navigate().to("https://demoqa.com/webtables");

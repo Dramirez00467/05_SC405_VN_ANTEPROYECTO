@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Testcorreomal {
-	public static  void  main2(String[] args) { 
+	public void  main() { 
 		  System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver1/chromedriver.exe");
 		  ChromeDriver driver = new ChromeDriver(); 
 		  driver.navigate().to("https://demoqa.com/webtables");
